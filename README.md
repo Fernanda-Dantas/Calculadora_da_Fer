@@ -1,2 +1,4 @@
-# Calculadora_da_Fer
- Calculadora criada em HTML, CSS e JS
+# Calculadora da Fer
+ Calculadora criada em HTML, CSS e JS.
+
+ Primeiro repositório completo do curso de Git e Github.
