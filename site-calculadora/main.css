@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  background-image: linear-gradient(45deg, black, yellow);
+  height: 100vh;
+  color: white;
+  font-family: 'Supermercado One', cursive;
+  text-align: center;
+}
+
+.calculator {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  padding: 20px;
+
+}
+
+.button {
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  cursor: pointer;
+  background-color: rgb(36, 35, 35);
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin: 5px;
+
+}
+
+.button:hover {
+  background-color: black;
+}
+
+#result {
+  width: 197px;
+  height: 30px;
+  background-color: honeydew;
+  margin: 5px;
+  font-size: 25px;
+  font-family: 'Supermercado One', cursive;
+  color: black;
+  text-align: right;
+  padding: 20px;
+}
