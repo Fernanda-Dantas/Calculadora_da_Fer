@@ -18,7 +18,7 @@
 
 
 #### Fontes:
-Utilizei os vídeos de [Gustavo Neitzke](https://www.youtube.com/watch?v=42TShjXR0m0), do Professor [Fernando Leonid](https://www.youtube.com/watch?v=oRZQ5EZOrQk). e do Professor [Marcos André Silveira Kutova](https://www.youtube.com/watch?v=3VEbigWyakg&list=WL&index=54).
+Utilizei os vídeos de [Gustavo Neitzke](https://www.youtube.com/watch?v=42TShjXR0m0), do Professor [Fernando Leonid](https://www.youtube.com/watch?v=oRZQ5EZOrQk), e do Professor [Marcos André Silveira Kutova](https://www.youtube.com/watch?v=3VEbigWyakg&list=WL&index=54).
 
 
 
