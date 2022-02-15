@@ -15,37 +15,37 @@
         <div class="calculator">
           <h1>Calculadora</h1>
           <p id="result"></p>
-        <table>
-          <tr>
-            <td><button class="button" onclick="empty()" id="clear">C</button></td>
-            <td><button class="button" onclick="back()" id="backspace"><</button></td>
-            <td><button class="button" onclick="insert('/')" id="div">/</button></td>
-            <td><button class="button" onclick="insert('*')" id="mult">*</button></td>
-          </tr>
-          <tr>
-            <td><button class="button" onclick="insert('7')" id="tecla7">7</button></td>
-            <td><button class="button" onclick="insert('8')" id="tecla8">8</button></td>
-            <td><button class="button" onclick="insert('9')" id="tecla9">9</button></td>
-            <td><button class="button" onclick="insert('-')" id="menos">-</button></td>
-          </tr>
-          <tr>
-            <td><button class="button" onclick="insert('4')" id="tecla4">4</button></td>
-            <td><button class="button" onclick="insert('5')" id="tecla5">5</button></td>
-            <td><button class="button" onclick="insert('6')" id="tecla6">6</button></td>
-            <td><button class="button" onclick="insert('+')" id="mais">+</button></td>
-          </tr>
-          <tr>
-            <td><button class="button" onclick="insert('1')" id="tecla1">1</button></td>
-            <td><button class="button" onclick="insert('2')" id="tecla2">2</button></td>
-            <td><button class="button" onclick="insert('3')" id="tecla3">3</button></td>
-            <td rowspan="2"><button class="button" style="height: 106px;" onclick="calc()" id="igual">=</button></td>
-          </tr>
-          <tr>
-            <td colspan="2"><button class="button" style="width: 106px;" onclick="insert('0')" id="tecla0">0</button></td>
-            <td><button class="button" onclick="insert('.')" id="decimal">.</button></td>
-          </tr>
-          </table>
-        </div>
+          <p id="calculadora"></p>
+          <table>
+            <tr>
+              <td><button class="button" id="clear">C</button></td>
+              <td><button class="button" id="mais">+</button></td>
+              <td><button class="button" id="div">/</button></td>
+              <td><button class="button" id="mult">*</button></td>
+            </tr>
+            <tr>
+              <td><button class="button" id="tecla7">7</button></td>
+              <td><button class="button" id="tecla8">8</button></td>
+              <td><button class="button" id="tecla9">9</button></td>
+              <td><button class="button" id="menos">-</button></td>
+            </tr>
+            <tr>
+              <td><button class="button" id="tecla4">4</button></td>
+              <td><button class="button" id="tecla5">5</button></td>
+              <td><button class="button" id="tecla6">6</button></td>
+            </tr>
+            <tr>
+              <td><button class="button" id="tecla1">1</button></td>
+              <td><button class="button" id="tecla2">2</button></td>
+              <td><button class="button" id="tecla3">3</button></td>
+              <td rowspan="2"><button class="button" style="height: 116px;" id="igual">=</button></td>
+            </tr>
+            <tr>
+              <td colspan="2"><button class="button" style="width: 106px;" onclick="insert('0')" id="tecla0">0</button></td>
+              <td><button class="button" id="decimal">,</button></td>
+            </tr>
+            </table>
+          </div>
       </div>
       <script src="comandos.js"></script>
     </body>
