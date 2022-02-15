@@ -18,7 +18,7 @@ onload = () => {
   document.querySelector('#igual').onclick = () => calcula('=');
 }
 
-// Variáveis para armazenar valor, operador e o estado da calculadora
+// Variáveis para armazenar valor, operador e o estado da calculadora.
 let sValor = '0'; // valor que será apresentado no display
 let novoNumero = true; // vai ver se terá um novo número
 let valorAnterior = '0'; // valor acumulado para uma operação
@@ -53,7 +53,6 @@ const digito = (n) => {
   } else sValor += n; // será concatenada com n
   atualizaVisor();
 };
-sValor.length 
 
 // Vírgula
 const virgula = () => {
@@ -65,10 +64,7 @@ const virgula = () => {
     atualizaVisor();
 };
 
-
-
 // Botão Clear
-
 const limpa = () => {
   novoNumero = true;
   valorAnterior = 0; // = valorAnterior.length == -1; resultado.substring(0, resultado.length -1);
@@ -108,11 +104,9 @@ const calcula = () => {
  operacaoPendente = null;
  valorAnterior = 0;
  atualizaVisor();
-}
-
+};
 
 // Dígitos do teclado
-
 const mapaTeclado = {
   '0' : 'tecla0',
   '1' : 'tecla1',
