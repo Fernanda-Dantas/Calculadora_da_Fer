@@ -67,7 +67,7 @@ const virgula = () => {
 // Botão Clear
 const limpa = () => {
   novoNumero = true;
-  valorAnterior = 0; // = valorAnterior.length == -1; resultado.substring(0, resultado.length -1);
+  valorAnterior = 0;
   operacaoPendente = null;
   sValor = ''
   atualizaVisor();
