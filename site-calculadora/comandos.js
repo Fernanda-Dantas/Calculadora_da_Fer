@@ -28,8 +28,8 @@ let operacaoPendente = null; // operação acumulada
 const atualizaVisor = () => {
   let [parteInteira, parteDecimal] = sValor.split(',');
   if (parteInteira.length > 10) {
-    document.querySelector('#result').innerText = 'Operação Inválida'
-    return;
+    document.querySelector('#result').innerText = ''
+    return limpa();
   }
   let v = '';
   c = 0;
